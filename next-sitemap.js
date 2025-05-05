@@ -1,5 +1,5 @@
 module.exports = {
-    siteUrl: 'https://soundwave.com',
+    siteUrl: 'https://soundwav.vercel.app/',
     generateRobotsTxt: true,
     exclude: ['/404'],
   };

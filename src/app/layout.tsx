@@ -11,13 +11,13 @@ export const metadata: Metadata = {
       template: '%s | Soundwave',
     },
     description: 'Soundwave recommends songs using AI based on your taste and mood.',
-    keywords: ['AI music', 'song recommendations', 'music discovery', 'Soundwave'],
-    authors: [{ name: 'Soundwave Team' }],
+    keywords: ['AI music', 'song recommendations', 'music discovery', 'Soundwave', 'Spotify', 'HarshDev', 'Recommendation Project', 'Python', 'Songs Recommendations Project', 'AI Songs', 'Music', 'LastFM'],
+    authors: [{ name: '@Harshdev_' }],
     themeColor: '#0f172a', // Optional: Tailwind bg-zinc-800
     openGraph: {
       title: 'Soundwave – AI Song Recommendations',
       description: 'AI-powered song recommendations just for you.',
-      url: 'https://yourdomain.com', // Replace this
+      url: 'https://soundwav.vercel.app/', // Replace this
       siteName: 'Soundwave',
       type: 'website',
     },
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
       description: 'Discover music you’ll love, powered by AI.',
       creator: '@harshdev_', // optional
     },
-    metadataBase: new URL('https://yourdomain.com'),
+    metadataBase: new URL('https://soundwav.vercel.app/'),
   };
 
 export default function RootLayout({
